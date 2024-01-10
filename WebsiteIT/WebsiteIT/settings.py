@@ -67,11 +67,11 @@ EMAIL_PAGE_DOMAIN = 'http://127.0.0.1:8000/'
 EMAIL_MULTI_USER = True
 
 # настройки вашего SMTP сервера
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'rarityabstract@gmail.com'
-EMAIL_FROM_ADDRESS = 'rarityabstract@gmail.com'
-EMAIL_HOST_PASSWORD = 'mYC00lP4ssw0rd'
+EMAIL_HOST = ''
+EMAIL_PORT = 
+EMAIL_HOST_USER = ''
+EMAIL_FROM_ADDRESS = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 # используется для тестирования
