@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}About us{% endblock %}
+
+{% block content %}
+   <div class="features">
+        <h1>Страница о нас</h1>
+        <p>Привет! Я молодой Python Developer из города Минска) </p>
+        <a href="{% url 'contacts' %}" class="btn btn-danger">Нажми на меня</a>
+    </div>
+{% endblock %}

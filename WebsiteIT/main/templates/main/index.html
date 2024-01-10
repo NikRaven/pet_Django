@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{title}}</h1>
+        <p>Приветствую на моём сайте! Здесь Вы сможете добавлять интересные новости и делиться ими с другими пользователями сайта! Приятного использования :)</p>
+        <a href="{% url 'about' %}" class="btn btn-warning">На страницу про нас</a>
+    </div>
+<!--{% include 'main/test.html'%}-->
+{% endblock %}
+

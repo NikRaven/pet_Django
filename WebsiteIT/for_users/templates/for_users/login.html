@@ -1,0 +1,30 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block content %}
+<div class="row">
+  <div class="" style="height:120px;">
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-6 col-sm-8">
+        <div class="card">
+          <div class="card-body" style="background-color:#e31948;">
+            <h3 class="card-title">Log in</h3>
+            <div class="card-body">
+            <form method="post" novalidate>
+              {% csrf_token %}
+              {{ form.as_p }}
+              <a class="btn btn-secondary btn-lg" href="{% url 'login_page'%}" >Log in</a>
+            </form>
+              </div>
+          </div>
+          <div class="card-footer text-muted text-center" style="background-color:#fa2d5d;">
+            New to our site? <a href="{% url 'logIN' %}">Sign up</a> or <a href="{% url 'index' %}">На Главную</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

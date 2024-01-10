@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.htmlclass',{ delay: 400 })
